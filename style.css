@@ -1,0 +1,37 @@
+
+*{
+        border: none;
+        box-sizing: border-box;
+        outline: none;
+        padding: 0;
+        margin: 0;
+    } body{
+        background-color: lightpink;
+    }
+    body{
+        background-color: rgb(204, 197, 198);
+    }
+.container{
+    height: 350px;
+    width: 500px;
+    border: 2px solid black;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 550px;
+    background-color: white;
+} 
+
+div input , button{
+    border: 2px solid black;
+    padding: 10px 40px;
+    margin :10px;
+}
+button{
+    background-color: rgb(19, 83, 123);
+    color: white;
+    margin-left: 70px;
+} 
